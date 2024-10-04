@@ -9,7 +9,7 @@ character = load_image('animation_sheet.png')
 hand_arrow = load_image('hand_arrow.png')
 
 boy_x = TUK_WIDTH // 2
-boy_y = TUK_HEIGHT / 2
+boy_y = TUK_HEIGHT // 2
 hand_x = random.randint(0, TUK_WIDTH)
 hand_y = random.randint(0, TUK_HEIGHT)
 face_right = True
